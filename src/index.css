@@ -157,8 +157,13 @@ img {
 .preloader__tag {
   font-size: 0.8rem;
   letter-spacing: 0.35em;
+  /* cancel the trailing letter-space so centering is optically true */
+  margin-right: -0.35em;
   text-transform: uppercase;
   color: var(--cream-dim);
+  text-align: center;
+  padding: 0 24px;
+  max-width: 90vw;
 }
 
 /* ---------- nav ---------- */

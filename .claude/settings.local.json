@@ -38,7 +38,8 @@
       "Bash(awk '{print \"frame1 ~\"int\\($5/1024\\)\"KB\"}')",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:55736/)",
       "Bash(ffmpeg -y -loglevel error -i car2.mp4 -vf \"scale=1600:-2\" -qscale:v 3 public/frames/frame-%03d.jpg)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:57757/)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:57757/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:49737/)"
     ]
   }
 }
